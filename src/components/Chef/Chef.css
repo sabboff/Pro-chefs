@@ -1,0 +1,8 @@
+.location{
+    color: crimson;
+    font-weight: 600;
+}
+#anchor a{
+    text-decoration: none;
+    color: gray;
+}
