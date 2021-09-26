@@ -13,7 +13,7 @@ const Chef = (props) => {
             <h5>Asking Payment: <span style={{
                 color:'purple'
             }}>{salary}</span></h5>
-            <small id='anchor'>Visit Profile: <a href={profile}>{name}</a></small>
+            <small id='anchor'>Click to visit Profile: <a href={profile} target='_blank'>{name}</a></small>
             <br />
             <button onClick = {() => props.handleAddtoCard(props.chef)} style={{
                 marginTop: '10px'
