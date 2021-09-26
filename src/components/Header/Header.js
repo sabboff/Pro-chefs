@@ -43,7 +43,7 @@ const Header = () => {
         <div>
         <Nav className="justify-content-center nav-color" bg="dark" variant="light" activeKey="/home">
     <Nav.Item>
-      <NavDropdown className='color-nav' title="HOME" id="collasible-nav-dropdown">
+      <NavDropdown title="HOME" id="collasible-nav-dropdown">
         <NavDropdown.Item href="#action/3.1">Biography</NavDropdown.Item>
         <NavDropdown.Item href="#action/3.2">Address</NavDropdown.Item>
         <NavDropdown.Item href="#action/3.3">Contact</NavDropdown.Item>

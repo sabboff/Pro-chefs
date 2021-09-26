@@ -2,3 +2,6 @@
     color: indianred;
     font-weight: 700;
 }
+.shadow{
+    box-shadow: 10px 5px 5px rgba(128, 128, 128, 0.644);
+}
